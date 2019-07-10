@@ -1,0 +1,212 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>FunnyIsland</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="shortcut icon" href="images/rainbow.png">
+<script src="jquery-3.2.1.js"></script>
+</head>
+<body>
+<div id="messenge">Request Sent Successfully</div>
+<div id="header">
+<div class="header_menu">
+<div><div class="vertical">About</div></div>
+<div><div class="vertical">Investors</div></div>
+<div><div class="vertical">Career</div></div>
+<div><div class="vertical">Environment</div></div>
+<div><div id="lang" class="vertical">Lang:EN</div></div>
+</div>
+</div>
+<img id="banner" src="images/inner.jpeg" alt="NO PICTURE">
+<div id="banner_name">Funny Island</div>
+<div id="content">
+<div id="content_menu">
+<div id="promote_menu"><img src="images/promote.png" alt="NO PICTURE"><div class="vertical">Promotion</div></div>
+<div id="ticket_menu"><img src="images/ticket.png" alt="NO PICTURE"><div class="vertical">Tickets</div></div>
+<div id="wheel_menu"><img src="images/wheel.png" alt="NO PICTURE"><div class="vertical">Attractions</div></div>
+<div id="finance_menu"><img src="images/financial.png" alt="NO PICTURE"><div class="vertical">Financial Report</div></div>
+<div id="about_menu"><img src="images/about.png" alt="NO PICTURE"><div class="vertical">About Company</div></div>
+<div id="career_menu"><img src="images/career.png" alt="NO PICTURE"><div class="vertical">Careers</div></div>
+<div id="news_menu"><img src="images/news.png" alt="NO PICTURE"><div class="vertical">Events & News</div></div>
+</div>
+<div id="holder">
+
+<!-- 														PROMOTION CODE -->
+
+<div id="promote">
+<div  class="namer"><img src="images/promote.png" alt="NO PICTURE"><b> 2 adults, 1 kid free promotion during December</b> </div>
+<img id="promote_background" src="images/promote_inner.jpg" alt="NO PICTURE">
+</div>
+<!-- 														PROMOTION OVER -->
+
+<!-- 														TICKET CODE -->
+<div id="ticket">
+
+<div class="namer"><img src="images/ticket.png" alt="NO PICTURE"> Tickets and Admission</div>
+<div id="confirming">
+<div id="confirmer"></div>
+<div id="ticket_confirm_holder">
+<div id="ticket_edit">Edit</div>
+<div id="ticket_confirm">Confirm</div>
+</div>
+</div>
+<div id="ticket_inner">
+<div id="ticket_inner_text">Amount of Guests</div>
+<div id="form_text_holder">
+<div>Senior:</div><div>Adult:</div><div>Children:</div>
+</div>
+<div id="guest_amount">
+<select id="senior">
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+</select>
+<select id="adult">
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+</select>
+<select id="child">
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+</select>
+</div>
+
+</div>
+<div id="ticket_submitter"><div class="vertical">Checkout and Confirm the tickets</div></div>
+</div>
+<!-- 														TICKET OVER -->
+<!-- 														WHEEL CODE -->
+<div id="wheel">
+<div  class="namer"><img src="images/wheel.png" alt="NO PICTURE"> Attractions</div>
+<div id="wheel_gallery">
+	<div class="gallery_row">
+	<div class="gallery_cell"><div class="g_i_n">Enjoy the night</div><img class="g_i" src="images/eye.jpg" alt="NO PICTURE"></div>
+	<div class="gallery_cell"><div class="g_i_n">Park in birdview</div><img class="g_i" src="images/birdview.jpg" alt="NO PICTURE"></div>
+	</div>
+	<div class="gallery_row">
+	<div class="gallery_cell"><div class="g_i_n">Crazy tower!</div><img class="g_i" src="images/tower.jpeg" alt="NO PICTURE"></div>
+	<div class="gallery_cell"><div class="g_i_n">Roller coster</div><img class="g_i" src="images/roller.jpg" alt="NO PICTURE"></div>
+	</div>
+</div>
+</div>
+
+<!-- 														WHEEL OVER -->
+<!-- 														FINANCE CODE -->
+<div id="finance">
+
+<div class="namer"><img src="images/financial.png" alt="NO PICTURE">Financial Report</div>
+<div id="finance_inner">
+<div class="finance_text">FUNI as of 13:45, 1st December 2016:</div>
+<div class="finance_text">Pricing delayed by 15 min.</div>
+<div id="finance_stock"></div>
+<div id="finance_download_holder"><div id="finance_download">
+<div id="finance_animated_arrow"><div class="dot" id="dot1"></div><div class="dot" id="dot2"></div><div class="dot"  id="dot3"></div><div  class="dot" id="dot4"></div><div class="dot"  id="dot5"></div><div  class="dot" id="dot6"></div><div class="dot"  id="dot7"></div><div class="dot"  id="dot8"></div><div  class="dot" id="dot9"></div><div class="dot"  id="dot10"></div></div>
+Download Q3 Financial Report
+</div>
+</div>
+</div>
+
+</div>
+<!-- 														FINANCE OVER -->
+<!-- 														ABOUT CODE -->
+<div id="about">
+<div class="namer"><img src="images/about.png" alt="NO PICTURE">About Company</div>
+<div id="about_inner">
+<div>We have 3 theme parks in Scandinavia</div>
+<ol>
+<li id="stockholm" class="about_map_pointer">Stockholm</li>
+<li id="gothenburg" class="about_map_pointer">Gothenburg</li>
+<li id="oslo" class="about_map_pointer">Oslo</li>
+</ol>
+</div>
+<div id="about_map">
+<div id="stockholm_map" class="about_map_dot"></div>
+<div id="oslo_map" class="about_map_dot"></div>
+<div id="gothenburg_map" class="about_map_dot"></div>
+</div>
+
+</div>
+<!-- 														ABOUT OVER -->
+<!-- 														CAREER CODE -->
+<div id="career">
+
+<div class="namer"><img src="images/career.png" alt="NO PICTURE">Careers</div>
+<div id="career_inner"></div>
+
+</div>
+<!-- 														CAREER OVER -->
+<!-- 														NEWS CODE -->
+<div id="news">
+
+<div class="namer"><img src="images/news.png" alt="NO PICTURE">News & Events</div>
+<div id="news_inner">
+<div class="news_inner_block">
+<div class="news_inner_block_date">2016-12-01</div>
+<div class="news_inner_block_news">Something good happened that day.</div>
+</div>
+<div class="news_inner_block">
+<div class="news_inner_block_date">2016-12-01</div>
+<div class="news_inner_block_news">Something good happened that day.</div>
+</div>
+<div class="news_inner_block">
+<div class="news_inner_block_date">2016-12-01</div>
+<div class="news_inner_block_news">Something good happened that day.</div>
+</div>
+<div class="news_inner_block">
+<div class="news_inner_block_date">2016-12-01</div>
+<div class="news_inner_block_news">Something good happened that day.</div>
+</div>
+<div class="news_inner_block">
+<div class="news_inner_block_date">2016-12-01</div>
+<div class="news_inner_block_news">Something good happened that day.</div>
+</div>
+<div class="news_inner_block">
+<div class="news_inner_block_date">2016-12-01</div>
+<div class="news_inner_block_news">Something good happened that day.</div>
+</div>
+</div>
+
+</div>
+<!-- 														NEWS OVER -->
+</div>
+
+
+<!-- 	was here													EASTERN EGG -->
+
+<!-- 														EASTERN EGG over -->
+
+</div>
+<div id="wrapper"></div>
+<div id="the_bottom"><div id="eastern_egg">
+<div id="discount">
+<div id="associator">
+<div id="associator3"></div>
+<div class="egg" id="black_egg"></div>
+<div class="egg" id="tomato_egg"></div>
+<div class="egg" id="gold_egg"></div>
+<div class="egg" id="yellow_egg"></div>
+<div class="egg" id="olive_egg"></div>
+<div class="egg" id="blue_egg"></div>
+<div class="egg" id="purple_egg"></div>
+<div class="egg" id="red_egg"></div>
+</div>
+</div>
+</div>
+<div id="footer"><div class="vertical">TEXT ABoUT corp sample sample and little bit more of it probably enough</div></div>
+</div>
+<script src="script.js">
+</script>
+</body>
+</html>
